@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .users {
+    h2 {
+      font-size: 22px;
+    }
+    .userList {
+      padding: 0;
+      .userItem {
+        margin-bottom: 15px;
+        div:first-child {
+          padding: 10px;
+          h3 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .modalContent {
+    width: 300px;
+  }
+}
